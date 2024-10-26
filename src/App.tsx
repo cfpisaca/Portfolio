@@ -1,24 +1,23 @@
-import { useState } from 'react'
-import './App.css'
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import About from './components/About';
+import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
+import Timeline from './components/Timeline';
+import Contact from './components/Contact';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> to continue.
-        </p>
-      </div>
-      <p className="read-the-docs">
-        This portfolio website is a WORK IN PROGRESS
-      </p>
-    </>
-  )
+    <div>
+      <Navbar />
+      <Header />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Timeline />
+      <Contact />
+    </div>
+  );
 }
 
-export default App
+export default App;
