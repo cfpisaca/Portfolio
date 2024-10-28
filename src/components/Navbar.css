@@ -1,0 +1,18 @@
+.portfolio-navbar {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .portfolio-navbar .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .portfolio-navbar .nav-link {
+    color: #f8f9fa; 
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .portfolio-navbar .nav-link:hover {
+    color: #ddd; 
+  }
+  

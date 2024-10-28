@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Modal, Button, Card, Container, Row, Col } from 'react-bootstrap';
 import ProfilePic from "../assets/images/collection.png";
+import './Portfolio.css';
 
 interface Project {
   title: string;
@@ -22,12 +23,12 @@ function Portfolio() {
   };
 
   return (
-    <Container id="projects" className="my-5 text-center">
+    <Container id="projects">
       <h2>Projects</h2>
       <Row>
         {projects.map((project, index) => (
-          <Col md={4} key={index} className="mb-4">
-            <Card onClick={() => handleOpenModal(project)}>
+          <Col md={4} key={index}>
+            <Card onClick={() => handleOpenModal(project)} className="project-card">
               <Card.Img variant="top" src={project.img} />
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>

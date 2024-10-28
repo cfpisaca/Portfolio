@@ -1,0 +1,24 @@
+#about {
+    min-height: 100vh; 
+    margin: 0 auto;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description {
+    margin-top: 1rem;
+  }
+  
+  #about h2 {
+    margin-bottom: 1rem;
+  }
+  

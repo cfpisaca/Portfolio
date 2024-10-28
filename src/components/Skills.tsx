@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import './Skills.css';
 
 function Skills() {
   const skills = [
@@ -8,12 +9,12 @@ function Skills() {
   ];
 
   return (
-    <Container id="skills" className="bg-primary text-white text-center py-5">
+    <Container id="skills">
       <h2>Skills</h2>
       <Row>
         {skills.map((skill, index) => (
-          <Col md={4} key={index} className="mb-4">
-            <Card className="text-center bg-secondary text-light">
+          <Col md={4} key={index}>
+            <Card>
               <Card.Body>
                 <Card.Title>{skill.title}</Card.Title>
                 <Card.Text>{skill.description}</Card.Text>
