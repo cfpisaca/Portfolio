@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Modal, Button, Card, Container, Row, Col } from 'react-bootstrap';
+import ProfilePic from "../assets/images/collection.png";
 
 interface Project {
   title: string;
@@ -12,7 +13,7 @@ function Portfolio() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
 
   const projects: Project[] = [
-    { title: "Collection Tracker", description: "E-marketplace website", img: "/assets/images/collection.png" },
+    { title: "Collection Tracker", description: "E-marketplace website", img: ProfilePic },
   ];
 
   const handleOpenModal = (project: Project) => {
