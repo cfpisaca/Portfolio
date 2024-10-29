@@ -1,18 +1,28 @@
 .portfolio-navbar {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .portfolio-navbar .navbar-brand {
-    font-weight: bold;
-  }
-  
-  .portfolio-navbar .nav-link {
-    color: #f8f9fa; 
-    transition: color 0.2s ease-in-out;
-  }
-  
-  .portfolio-navbar .nav-link:hover {
-    color: #ddd; 
-  }
-  
+  background-color: #333;
+  color: #fff;
+}
+
+.portfolio-navbar .navbar-brand {
+  font-weight: bold;
+}
+
+.portfolio-navbar .nav-link {
+  color: #f8f9fa; 
+  transition: color 0.2s ease-in-out;
+}
+
+.portfolio-navbar .nav-link:hover {
+  color: #ddd; 
+}
+
+.resume-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #f8f9fa;
+}
+
+.resume-link .pdf-icon {
+  font-size: 1rem;
+}

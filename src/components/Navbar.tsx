@@ -1,4 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { FaFilePdf } from 'react-icons/fa';
 import './Navbar.css';
 
 function PortfolioNavbar() {
@@ -22,6 +23,9 @@ function PortfolioNavbar() {
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#timeline">Timeline</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="src/assets/docs/resume.pdf" target="_blank" className="resume-link">
+              <FaFilePdf className="pdf-icon" /> Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
