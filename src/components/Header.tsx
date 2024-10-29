@@ -6,11 +6,13 @@ function Header() {
   return (
     <header className="masthead d-flex align-items-center justify-content-center">
       <Container className="text-center">
-        <img 
-          src={ProfilePic} 
-          alt="Carlo Pisacane" 
-          className="header-image mb-3"
-        />
+        <div className="header-image-wrapper">
+          <img 
+            src={ProfilePic} 
+            alt="Carlo Pisacane" 
+            className="header-image mb-3"
+          />
+        </div>
         <h1 className="header-title mb-3"><strong>Carlo Pisacane</strong></h1>
         <p className="header-subtitle lead mb-4">Honors Computer Science Student @ Syracuse University</p>
         <Button 
@@ -25,5 +27,6 @@ function Header() {
     </header>
   );
 }
+
 
 export default Header;
