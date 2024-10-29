@@ -23,7 +23,7 @@ function PortfolioNavbar() {
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#timeline">Timeline</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="src/assets/docs/resume.pdf" target="_blank" className="resume-link">
+            <Nav.Link href="https://cfpisaca.github.io/Portfolio/src/assets/docs/resume.pdf" target="_blank" className="resume-link">
               <FaFilePdf className="pdf-icon" /> Resume
             </Nav.Link>
           </Nav>
