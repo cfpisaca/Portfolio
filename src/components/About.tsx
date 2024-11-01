@@ -1,5 +1,5 @@
 import { Row, Col } from 'react-bootstrap';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
 import ProfilePic from "../assets/images/profilepic1.png";
 import './About.css';
 
@@ -37,6 +37,15 @@ function About() {
             </p>
           </Col>
         </Row>
+        <h3 style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '1.5rem' }}>Learn more about my:</h3>
+        <div className="buttons-container">
+          <a href="#skills" className="info-button">Skills</a>
+          <a href="#projects" className="info-button">Projects</a>
+          <a href="#timeline" className="info-button">Work Experience</a>
+          <a href="src/assets/docs/resume.pdf" target="_blank" className="info-button with-icon">
+            <FaFilePdf /> Resume
+          </a>
+        </div>
       </div>
     </div>
   );

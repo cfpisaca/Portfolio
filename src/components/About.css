@@ -11,13 +11,13 @@
 }
 
 .about-content {
-  max-width: 1200px; 
-  padding: 0 2rem; 
-  margin: 0 auto; 
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 5rem 0;
 }
 
 .profile-pic {
-  width: 325px; 
+  width: 325px;
   border-radius: 50%;
   margin-bottom: 1rem;
   border: 5px solid #ffffff;
@@ -26,14 +26,14 @@
 h2 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
-  text-align: left; 
+  text-align: left;
 }
 
 .sub-heading {
   font-size: 1.2rem;
   color: #666;
   margin-bottom: 1.5rem;
-  text-align: left; 
+  text-align: left;
 }
 
 .about-description,
@@ -41,11 +41,11 @@ h2 {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  text-align: left; 
+  text-align: left;
 }
 
 .about-education ul {
-  list-style-type: disc; 
+  list-style-type: disc;
   padding-left: 1.5rem;
   margin-top: 0.5rem;
 }
@@ -59,6 +59,7 @@ h2 {
   justify-content: center;
   gap: 2rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .icon {
@@ -69,5 +70,47 @@ h2 {
 }
 
 .icon:hover {
-  color: #007bff;
+  color: #ff8741;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.info-button {
+  display: inline-block; 
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333; 
+  text-decoration: none; 
+}
+
+.info-button:hover {
+  background-color: #e2e2e2;
+  text-decoration: none; 
+}
+
+.with-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-button.with-icon {
+  background-color: #333; /* Set to grey */
+  color: #fff;
+}
+
+.info-button.with-icon:hover {
+  background-color: #1d1d1d; /* Darker grey on hover */
 }
