@@ -24,8 +24,8 @@ function Portfolio() {
     { title: "Geography3D", description: "A Meta Quest 2 game.", img: Geography },
     { title: "Portfolio", description: "Carlo Pisacane's portfolio.", img: App },
     { title: "Encode and Decode", description: "Binary encoder and decoder.", img: Binary },
-    { title: "Simple Chat Bot", description: "First java project, simple chat bot.", img: Bot },
-    { title: "Tic-Tac-Toe", description: "Classic Tic-Tac-Toe.", img: TicTacToe }
+    { title: "Tic-Tac-Toe", description: "Classic Tic-Tac-Toe.", img: TicTacToe },
+    { title: "Simple Chat Bot", description: "First java project, simple chat bot.", img: Bot }
   ]; 
 
   const handleOpenModal = (project: Project) => {

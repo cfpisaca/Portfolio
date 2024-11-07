@@ -77,3 +77,11 @@
   background-color: #ddd;
   color: #222;
 }
+
+.development-banner {
+  color: #ff0101;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
