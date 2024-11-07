@@ -1,6 +1,7 @@
 import { Row, Col } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
 import ProfilePic from "../assets/images/profilepic1.png";
+import Resume from "../assets/docs/resume.pdf";
 import './About.css';
 
 function About() {
@@ -43,7 +44,7 @@ function About() {
           <a href="#projects" className="info-button">Projects</a>
           <a href="#thesis" className="info-button">Thesis</a>
           <a href="#timeline" className="info-button">Work Experience</a>
-          <a href="src/assets/docs/resume.pdf" target="_blank" className="info-button with-icon">
+          <a href={Resume} target="_blank" className="info-button with-icon">
             <FaFilePdf /> Resume
           </a>
         </div>
