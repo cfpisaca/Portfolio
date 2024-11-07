@@ -21,6 +21,7 @@ function PortfolioNavbar() {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#thesis">Thesis</Nav.Link> 
             <Nav.Link href="#timeline">Timeline</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href="src/assets/docs/resume.pdf" target="_blank" className="resume-link">

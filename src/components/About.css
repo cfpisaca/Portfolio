@@ -107,10 +107,10 @@ h2 {
 }
 
 .info-button.with-icon {
-  background-color: #333; /* Set to grey */
+  background-color: #333; 
   color: #fff;
 }
 
 .info-button.with-icon:hover {
-  background-color: #1d1d1d; /* Darker grey on hover */
+  background-color: #1d1d1d; 
 }

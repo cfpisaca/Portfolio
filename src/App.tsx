@@ -4,6 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
+import Thesis from './components/Thesis'; 
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Skills />
       <Portfolio />
+      <Thesis /> 
       <Timeline />
       <Contact />
     </div>

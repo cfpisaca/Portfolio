@@ -41,6 +41,7 @@ function About() {
         <div className="buttons-container">
           <a href="#skills" className="info-button">Skills</a>
           <a href="#projects" className="info-button">Projects</a>
+          <a href="#thesis" className="info-button">Thesis</a>
           <a href="#timeline" className="info-button">Work Experience</a>
           <a href="src/assets/docs/resume.pdf" target="_blank" className="info-button with-icon">
             <FaFilePdf /> Resume
