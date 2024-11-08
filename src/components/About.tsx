@@ -22,20 +22,21 @@ function About() {
           </Col>
           <Col md={8}>
             <h2>Carlo Pisacane</h2>
-            <p className="sub-heading">Syracuse '25, B.S. Computer Science Student, Software Engineer, and Honors Thesis Student</p>
-            <p className="about-description">
-              I'm a Honors Computer Science student of Syracuse's Class of 2025 and my passion is Computer Science. My interests include software design and development, machine learning, computer vision, and virtual reality.
-              <br /><br />
-              I'm currently a fourth-year student working towards getting a full-time job in Computer Science.
-            </p>
+            <p className="sub-heading">Syracuse '25, B.S. Computer Science Student</p>
             <p className="about-education">
               <strong>Syracuse University College of Engineering and Computer Science (ECS)</strong>
               <ul>
-                <li>Bachelor's of Science in Computer Science</li>
+                <li>Bachelor of Science (B.S.) in Computer Science </li>
                 <li>Renée Crown University Honors Program</li>
                 <li>1870 Scholarship: The highest recognition by the Office of Admissions; 4/5-year full tuition for academic excellence</li>
               </ul>
             </p>
+            <p className="about-description">
+              I'm a Honors Computer Science student of Syracuse's Class of 2025. My interests include software design and development, computer vision, and virtual reality.
+              <br /><br />
+              I'm currently a fourth-year student working towards getting a full-time job in Computer Science.
+            </p>
+            
           </Col>
         </Row>
         <h3 style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '1.5rem' }}>Learn more about my:</h3>

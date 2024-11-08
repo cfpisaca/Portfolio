@@ -30,7 +30,7 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  color: #fff;
+  color: #ffffff !important;
   border: none !important;
   border-radius: 0;
   margin: 0;
@@ -63,13 +63,8 @@
 }
 
 .project-card:hover::before {
-  background-color: rgba(62, 136, 185, 0.5);
+  background-color: rgba(0, 14, 84, 0.309);
   transform: scale(0.9); 
-}
-
-#projects .row {
-  margin: 0;
-  padding: 0;
 }
 
 .project-overlay {
@@ -99,6 +94,30 @@
   max-width: 90%;
 }
 
+.custom-modal .modal-dialog {
+  max-width: 80%;
+}
+
+.custom-modal .modal-header {
+  position: relative;
+}
+
+.custom-modal .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: #333;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.custom-modal .close-button:hover {
+  color: #555;
+}
+
 .github-section {
   margin-top: 3rem;
   text-align: center;
@@ -110,7 +129,7 @@
 }
 
 .github-button {
-  font-size: 1.00rem !important;
+  font-size: 1rem !important;
   font-weight: bold !important;
   padding: 1rem 2rem !important;
   background-color: #333 !important;
@@ -120,4 +139,39 @@
 
 .github-button:hover {
   background-color: #1d1d1d !important;
+}
+
+@media (max-width: 768px) {
+  #projects {
+    padding: 4rem 1.5rem;
+  }
+
+  .project-title {
+    font-size: 2.5rem;
+  }
+
+  .project-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .project-card .card-img-top {
+    height: 200px;
+  }
+
+  .project-card .card-title {
+    font-size: 1.5rem;
+  }
+
+  .project-card .card-text {
+    font-size: 1rem;
+  }
+
+  .github-section p {
+    font-size: 1rem;
+  }
+
+  .github-button {
+    font-size: 0.9rem !important;
+    padding: 0.75rem 1.5rem !important;
+  }
 }

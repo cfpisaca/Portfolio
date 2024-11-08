@@ -15,7 +15,7 @@ function Header() {
             />
           </div>
           <h1 className="header-title mb-3"><strong>Carlo Pisacane</strong></h1>
-          <p className="header-subtitle lead mb-4">Honors Computer Science Student @ Syracuse University</p>
+          <p className="header-subtitle lead mb-4">Computer Science Student at Syracuse University</p>
           <div className="development-banner">
             This portfolio is still under development.
           </div>
