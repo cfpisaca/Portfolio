@@ -1,5 +1,4 @@
 import { Container, Button } from 'react-bootstrap';
-import ProfilePic from "../assets/images/profilepic2.png";
 import './Header.css';
 
 function Header() {
@@ -7,13 +6,6 @@ function Header() {
     <>
       <header className="masthead d-flex align-items-center justify-content-center">
         <Container className="text-center">
-          <div className="header-image-wrapper">
-            <img 
-              src={ProfilePic} 
-              alt="Carlo Pisacane" 
-              className="header-image mb-3"
-            />
-          </div>
           <h1 className="header-title mb-3"><strong>Carlo Pisacane</strong></h1>
           <p className="header-subtitle lead mb-4">Computer Science Student at Syracuse University</p>
           <div className="development-banner">
