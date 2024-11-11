@@ -114,30 +114,3 @@ h2 {
 .info-button.with-icon:hover {
   background-color: #1d1d1d; 
 }
-
-@media (max-width: 1050px) {
-  #about {
-    padding: 4rem 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .sub-heading {
-    font-size: 1rem;
-  }
-
-  .profile-pic {
-    width: 210px;
-  }
-
-  .icon {
-    font-size: 1.5rem;
-  }
-
-  .info-button {
-    padding: 0.75rem 1.5rem;
-    font-size: 0.9rem;
-  }
-}

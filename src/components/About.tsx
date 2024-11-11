@@ -1,6 +1,6 @@
 import { Row, Col } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
-import ProfilePic from "../assets/images/profilepic1.png";
+import ProfilePic from "../assets/images/profilepic.png";
 import Resume from "../assets/docs/resume.pdf";
 import './About.css';
 
