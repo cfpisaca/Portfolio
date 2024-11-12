@@ -1,3 +1,10 @@
+.timeline-wrapper {
+  background-color: #efefef;
+  width: 100%;
+  padding: 0; 
+  margin: 0; 
+}
+
 #timeline {
   min-height: 100vh;
   text-align: center;
@@ -5,7 +12,7 @@
   background-color: #efefef;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
 }
@@ -30,7 +37,7 @@
 
 .timeline-item {
   display: flex;
-  align-items: flex-start; /* align at start for left alignment */
+  align-items: flex-start;
   margin-bottom: 2rem;
   position: relative;
 }
@@ -60,7 +67,7 @@
   padding: 1.5rem;
   border-radius: 8px;
   width: 100%;
-  text-align: left; /* align to left */
+  text-align: left;
 }
 
 .timeline-content h3 {
@@ -79,7 +86,7 @@
 .timeline-content p {
   font-size: 1rem;
   margin: 0;
-  text-align: left !important; /* paragraphs in timeline-content are left-aligned */ 
+  text-align: left !important;
 }
 
 .timeline-container::before {

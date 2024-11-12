@@ -1,29 +1,59 @@
+.contact-wrapper {
+  min-height: 100vh;
+  background-image: url("../assets/images/subway.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.contact-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  filter: brightness(0.5); 
+}
+
 #contact {
-    min-height: 100vh; 
-    background-color: #333;
-    color: #fff;
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #contact h2 {
-    margin-bottom: 1.5rem;
-  }
-  
-  .contact-form {
-    width: 100%;
-    max-width: 500px;
-    margin-top: 1rem;
-  }
-  
-  .form-spacing {
-    margin-top: 1rem;
-  }
-  
-  .submit-button {
-    margin-top: 1rem;
-  }
-  
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact h2 {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+.form-spacing {
+  margin-top: 1rem;
+}
+
+.submit-button {
+  margin-top: 1rem;
+}
