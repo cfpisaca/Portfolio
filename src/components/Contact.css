@@ -93,7 +93,7 @@
   padding: 1.5rem !important;
   border: none;
   border-radius: 4px;
-  margin-bottom: 10rem;
+  margin-bottom: 4rem;
 }
 
 .submit-button:hover {
@@ -122,7 +122,7 @@
 .social-icons {
   display: flex;
   gap: 1.5rem;
-  margin-left: 2.5rem;
+  margin-left: 0.80rem;
 }
 
 .icon {

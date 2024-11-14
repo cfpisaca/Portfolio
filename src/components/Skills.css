@@ -52,6 +52,16 @@
   font-size: 1rem;
 }
 
+.project-link {
+  color: #F76900;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 1400px) {
   #skills {
     padding: 4rem 2rem;

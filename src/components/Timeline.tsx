@@ -19,8 +19,13 @@ function Timeline() {
             </div>
             <div className="timeline-content">
               <h3>Aug 2024 - Present</h3>
-              <h4>Multidisciplinary Mixed Reality Research Group, Syracuse, NY</h4>
-              <p>Enter info here.</p>
+              <h4>
+                Multidisciplinary Mixed Reality Research Group
+                <br />
+                <span style={{ color: '#333'}}>Syracuse, NY</span>
+              </h4>
+              <p>
+              SUMMRR (Syracuse University Multidisciplinary Mixed Reality Research) is a student-led group organized by Professor João Marum to advance AR/VR innovation across disciplines. Current projects include a collaboration with Professor Tiffany Koszalka on an AR iPad app for Psychomotor Skill Learning, which uses real-time visual feedback through a Digital Twin to enhance upper body movement training. </p>
             </div>
           </div>
           <div className="timeline-item">
@@ -29,8 +34,11 @@ function Timeline() {
             </div>
             <div className="timeline-content">
               <h3>Aug 2024 - Present</h3>
-              <h4>Renée Crown University Honors Program, Syracuse, NY</h4>
-              <p>Enter info here.</p>
+              <h4>Renée Crown University Honors Thesis
+                <br />
+                  <span style={{ color: '#333'}}>Syracuse, NY</span>
+              </h4>
+              <p>Thesis info here.</p> 
             </div>
           </div>
           <div className="timeline-item">
@@ -39,8 +47,11 @@ function Timeline() {
             </div>
             <div className="timeline-content">
               <h3>Apr 2023 - Present</h3>
-              <h4>College of Engineering Career Services, Syracuse, NY</h4>
-              <p>Enter info here.</p>
+              <h4>College of Engineering & Computer Science Career Services
+                <br />
+                  <span style={{ color: '#333'}}>Syracuse, NY</span>
+              </h4>
+              <p>As a Career Coach and Peer Leader, I mentor students over 10 hours a week, helping them with resumes, cover letters, LinkedIn, and Handshake profiles. I also organize career fairs and workshops, support ECS Career staff and employers, and lead orientation sessions for new students at Syracuse University.</p>
             </div>
           </div>
           <div className="timeline-item">
@@ -48,9 +59,12 @@ function Timeline() {
               <img src={Syracuse} alt="Syracuse" />
             </div>
             <div className="timeline-content">
-              <h3>2021 - May 2025</h3>
-              <h4>Syracuse University, Syracuse, NY</h4>
-              <p>Enter info here.</p>
+              <h3>2021 - Present (May 2025)</h3>
+              <h4>Syracuse University
+                <br />
+                 <span style={{ color: '#333'}}>Syracuse, NY</span>
+              </h4>
+              <p>As a fourth-year student pursuing a degree in Computer Science at Syracuse University, I continue to take advantage of the diverse learning opportunities and resources the university offers.</p>
             </div>
           </div>
           <div className="timeline-item">
@@ -59,8 +73,11 @@ function Timeline() {
             </div>
             <div className="timeline-content">
               <h3>2017 - 2021</h3>
-              <h4>NYC Lab High School for Collaborative Studies, New York, NY</h4>
-              <p>Enter info here.</p>
+              <h4>NYC Lab High School for Collaborative Studies
+              <br />
+                 <span style={{ color: '#333'}}>New York, NY</span>
+              </h4>
+              <p>I graduated from NYC Lab High School for Collaborative Studies, eager for new opportunities at Syracuse University. In high school, I was active in the Black Student Union, Model UN, West Side Soccer League, and volunteered at Manhattan's Children Center and NYC Relief Bus.</p>
             </div>
           </div>
         </div>

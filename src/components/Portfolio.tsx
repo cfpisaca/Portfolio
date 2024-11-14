@@ -13,7 +13,8 @@ interface Project {
   title: string;
   description: string;
   img: string;
-  bio: string; 
+  bio: string;
+  repoLink: string; 
 }
 
 function Portfolio() {
@@ -21,12 +22,48 @@ function Portfolio() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
 
   const projects: Project[] = [
-    { title: "Collection Tracker", description: "E-marketplace web application.", img: Collection, bio: "A project that manages collections in an online marketplace." },
-    { title: "Geography3D", description: "A Meta Quest 2 game.", img: Geography, bio: "An immersive VR game exploring global geography in 3D." },
-    { title: "Portfolio", description: "Carlo Pisacane's portfolio.", img: App, bio: "A personal portfolio showcasing Carlo's projects and skills." },
-    { title: "Encode and Decode", description: "Binary encoder and decoder.", img: Binary, bio: "A tool to encode and decode messages in binary format." },
-    { title: "Tic-Tac-Toe", description: "Classic Tic-Tac-Toe.", img: TicTacToe, bio: "A digital rendition of the classic Tic-Tac-Toe game." },
-    { title: "Simple Chat Bot", description: "First java project, simple chat bot.", img: Bot, bio: "A basic chat bot project implemented in Java." }
+    { 
+      title: "Collection Tracker", 
+      description: "E-marketplace web application", 
+      img: Collection, 
+      bio: "A project that manages collections in an online marketplace.", 
+      repoLink: "https://github.com/cfpisaca/CollectionTracker" 
+    },
+    { 
+      title: "Geography3D", 
+      description: "A Meta Quest 2 game", 
+      img: Geography, 
+      bio: "An immersive VR game exploring global geography in 3D.", 
+      repoLink: "https://github.com/cfpisaca/Geography3D" 
+    },
+    { 
+      title: "Portfolio", 
+      description: "Carlo Pisacane's portfolio", 
+      img: App, 
+      bio: "A personal portfolio showcasing Carlo's projects and skills.", 
+      repoLink: "https://github.com/cfpisaca/Portfolio" 
+    },
+    { 
+      title: "Encode and Decode", 
+      description: "Binary encoder and decoder", 
+      img: Binary, 
+      bio: "A tool to encode and decode messages in binary format.", 
+      repoLink: "https://github.com/cfpisaca/EncodeDecode"
+    },
+    { 
+      title: "Tic-Tac-Toe", 
+      description: "Classic Tic-Tac-Toe", 
+      img: TicTacToe, 
+      bio: "A digital rendition of the classic Tic-Tac-Toe game.", 
+      repoLink: "https://github.com/cfpisaca/TicTacToe" 
+    },
+    { 
+      title: "Simple Chat Bot", 
+      description: "First java project, simple chat bot", 
+      img: Bot, 
+      bio: "A basic chat bot project implemented in Java.", 
+      repoLink: "https://github.com/cfpisaca/SimpleChatBot" 
+    }
   ];
 
   const handleOpenModal = (project: Project) => {
@@ -72,19 +109,19 @@ function Portfolio() {
           centered
           className="custom-modal"
         >
-          <Modal.Header>
-            <Modal.Title>{activeProject.title}</Modal.Title>
+          <Modal.Header className="border-0">
+            <Modal.Title className="modal-title">{activeProject.title}</Modal.Title>
             <Button variant="link" className="close-button" onClick={() => setShowModal(false)}>
               <FaTimes />
             </Button>
           </Modal.Header>
-          <Modal.Body>
-            <p><strong>Description:</strong> {activeProject.description}</p>
-            <p><strong>Bio:</strong> {activeProject.bio}</p>
+          <Modal.Body className="text-center">
+            <p className="modal-description">{activeProject.description}</p>
+            <p className="modal-bio">{activeProject.bio}</p>
+            <p className="modal-github-text">
+              View this project on GitHub: <a href={activeProject.repoLink} target="_blank" rel="noopener noreferrer" className="github-link">{activeProject.repoLink}</a>
+            </p>
           </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={() => setShowModal(false)}>Close</Button>
-          </Modal.Footer>
         </Modal>
       )}
 

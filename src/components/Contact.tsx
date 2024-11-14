@@ -31,7 +31,7 @@ function Contact() {
       </Container>
 
       <footer className="contact-footer">
-        <p><strong>Carlo Pisacane</strong></p>
+        <p><strong>Portfolio ends here.</strong></p>
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/carlopisa/" target="_blank" rel="noopener noreferrer" className="icon">
             <FaLinkedin />

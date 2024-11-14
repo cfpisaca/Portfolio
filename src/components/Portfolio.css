@@ -95,11 +95,43 @@
 }
 
 .custom-modal .modal-dialog {
-  max-width: 80%;
+  max-width: 60%;
 }
 
-.custom-modal .modal-header {
-  position: relative;
+.custom-modal .modal-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.custom-modal .modal-description {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.custom-modal .modal-bio {
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.modal-github-text {
+  display: inline-block;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.github-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
 }
 
 .custom-modal .close-button {
@@ -141,6 +173,16 @@
   background-color: #1d1d1d !important;
 }
 
+.github-link {
+  color: #F76900;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 768px) {
   #projects {
     padding: 4rem 1.5rem;
@@ -173,5 +215,29 @@
   .github-button {
     font-size: 0.9rem !important;
     padding: 0.75rem 1.5rem !important;
+  }
+
+  .custom-modal .modal-dialog {
+    max-width: 90%;
+  }
+
+  .custom-modal .modal-title {
+    font-size: 2rem;
+  }
+
+  .custom-modal .modal-description {
+    font-size: 1rem;
+  }
+
+  .custom-modal .modal-bio {
+    font-size: 0.9rem;
+  }
+
+  .modal-github-text {
+    font-size: 0.9rem;
+  }
+
+  .github-link {
+    font-size: 0.9rem;
   }
 }
