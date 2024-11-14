@@ -54,7 +54,7 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-.social-icons {
+.about-social-icons {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -62,14 +62,14 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.icon {
+.about-icon {
   font-size: 2rem;
   color: #333;
   cursor: pointer;
   transition: color 0.3s;
 }
 
-.icon:hover {
+.about-icon:hover {
   color: #F76900;
 }
 
@@ -82,7 +82,7 @@ h2 {
 }
 
 .info-button {
-  display: inline-block; 
+  display: inline-block;
   background-color: #ffffff;
   padding: 1rem 2rem;
   font-size: 1rem;
@@ -91,13 +91,13 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  color: #333; 
-  text-decoration: none; 
+  color: #333;
+  text-decoration: none;
 }
 
 .info-button:hover {
   background-color: #e2e2e2;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .with-icon {
@@ -107,10 +107,10 @@ h2 {
 }
 
 .info-button.with-icon {
-  background-color: #333; 
+  background-color: #333;
   color: #fff;
 }
 
 .info-button.with-icon:hover {
-  background-color: #1d1d1d; 
+  background-color: #1d1d1d;
 }

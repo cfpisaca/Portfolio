@@ -11,12 +11,12 @@ function About() {
         <Row className="justify-content-center">
           <Col md={4} className="text-center">
             <img src={ProfilePic} alt="Profile" className="profile-pic" />
-            <div className="social-icons">
+            <div className="about-social-icons">
               <a href="https://github.com/cfpisaca" target="_blank" rel="noopener noreferrer">
-                <FaGithub className="icon" />
+                <FaGithub className="about-icon" />
               </a>
               <a href="https://linkedin.com/in/carlopisa" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin className="icon" />
+                <FaLinkedin className="about-icon" />
               </a>
             </div>
           </Col>
@@ -36,7 +36,6 @@ function About() {
               <br /><br />
               I'm currently a fourth-year student working towards getting a full-time job in Computer Science.
             </p>
-            
           </Col>
         </Row>
         <h3 style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '1.5rem' }}>Learn more about my:</h3>

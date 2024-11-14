@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { FaPython, FaJava, FaCode, FaReact, FaBook, FaEye, FaLaptop  } from 'react-icons/fa';
-// FaBullseye, FaBrain,
+import { FaPython, FaJava, FaCode, FaReact, FaBook, FaEye } from 'react-icons/fa';
+// FaBullseye, FaBrain, FaLaptop
 import './Skills.css';
 
 function Skills() {
@@ -12,7 +12,7 @@ function Skills() {
     // { title: "Computer Vision", icon: <FaBullseye />, description: "Expertise with OpenCV, utilized in thesis research to analyze video data and enhance ASL recognition system performance, integrating ML techniques for complex visual tasks." },
     { title: "JavaScript, HTML, CSS", icon: <FaCode />, description: "Front-end and mobile development, used in projects like Collection Tracker and your portfolio. Knowledgeable in building interactive UIs and developing Android applications." },
     { title: "React, Spring, Bootstrap, Vue, Flutter, PostgreSQL", icon: <FaReact />, description: "Developed full-stack and mobile applications, leveraging these frameworks, libraries, and backend data management. Applied in projects like Collection Tracker to build robust, responsive, and user-friendly applications." },
-    { title: "C++", icon: <FaLaptop />, description: "Solid foundation in C++ through coursework, covering essential programming concepts, data structures, and object-oriented programming techniques." },
+    // { title: "C++", icon: <FaLaptop />, description: "Solid foundation in C++ through coursework, covering essential programming concepts, data structures, and object-oriented programming techniques." },
     { title: "Software Development", icon: <FaBook />, description: "Skilled in Agile methodologies with tools like Jira and Visual Paradigm, effectively applied in collaborative projects like Collection Tracker, optimizing productivity through sprint planning and backlog management." }
   ];
 
