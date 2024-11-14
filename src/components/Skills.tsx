@@ -1,5 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { FaPython, FaJava, FaCode, FaReact, FaBook, FaEye, FaBullseye, FaBrain, FaLaptop } from 'react-icons/fa';
+import { FaPython, FaJava, FaCode, FaReact, FaBook, FaEye } from 'react-icons/fa';
+//  FaBullseye, FaBrain, FaLaptop
 import './Skills.css';
 
 function Skills() {
