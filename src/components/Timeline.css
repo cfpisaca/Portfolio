@@ -121,8 +121,13 @@
     text-align: center;
   }
 
+  .timeline-content p {
+    text-align: center !important; 
+  }
+
   .timeline-container::before {
     left: 50%; 
     transform: translateX(-50%); 
   }
 }
+

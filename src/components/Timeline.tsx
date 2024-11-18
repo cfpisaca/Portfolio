@@ -77,7 +77,7 @@ function Timeline() {
               <br />
                  <span style={{ color: '#333'}}>New York, NY</span>
               </h4>
-              <p>I graduated from NYC Lab High School for Collaborative Studies, eager for new opportunities at Syracuse University. In high school, I was active in the Black Student Union, Model UN, West Side Soccer League, and volunteered at Manhattan's Children Center and NYC Relief Bus.</p>
+              <p>I graduated from NYC Lab High School for Collaborative Studies, eager for new opportunities at Syracuse University. In high school, I was active in the Model UN, Black Student Union, West Side Soccer League, and volunteered at Manhattan's Children Center and NYC Relief Bus.</p>
             </div>
           </div>
         </div>

@@ -135,6 +135,22 @@
   color: #F76900;
 }
 
+a.email-link, a.phone-link {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 0.2rem 0.5rem; 
+  border-radius: 5px; 
+  transition: all 0.3s ease;
+}
+
+a.email-link:hover, a.phone-link:hover {
+  color: #ffffff;
+  background-color: #F76900; 
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
 @media (max-width: 600px) {
   #contact {
     padding: 2rem 0; 
