@@ -8,6 +8,8 @@ import Binary from "../assets/images/binary.png";
 import TicTacToe from "../assets/images/tic.png";
 import Bot from "../assets/images/bot.png";
 import Thrift from "../assets/images/thift.png";
+import Future from "../assets/images/future.png";
+import MediaPipe from "../assets/images/mediapipe.png";
 import './Portfolio.css';
 
 interface Project {
@@ -52,12 +54,26 @@ function Portfolio() {
       repoLink: "https://github.com/cfpisaca/EncodeDecode"
     },
     {
+      title: "PsychomotorSkillLearning",
+      description: "AR iPad app",
+      img: MediaPipe,
+      bio: "Augmented Reality project for Psychomotor Skill Learning. This app is for SUMMRR (Syracuse University Multidisciplinary Mixed Reality Research).",
+      repoLink: "https://github.com/5ALin/Real-Time-Full-Body-Pose-and-Gesture-Replication-System?tab=readme-ov-file"
+    },      
+    {
       title: "SecondHandStoreApp",
       description: "Multiplatform thrift store inventory",
       img: Thrift,
       bio: "A Flutter-based application for managing second-hand store inventory.",
       repoLink: "https://github.com/aidandegooyer/SecondHandStoreApp"
-    },    
+    },  
+    { 
+      title: "SimpleChatBot", 
+      description: "First java project, simple chat bot", 
+      img: Bot, 
+      bio: "A basic chat bot project implemented in Java.", 
+      repoLink: "https://github.com/cfpisaca/SimpleChatBot" 
+    },
     { 
       title: "TicTacToe", 
       description: "Classic Tic-Tac-Toe", 
@@ -65,13 +81,13 @@ function Portfolio() {
       bio: "A digital rendition of the classic Tic-Tac-Toe game.", 
       repoLink: "https://github.com/cfpisaca/TicTacToe" 
     },
-    { 
-      title: "SimpleChatBot", 
-      description: "First java project, simple chat bot", 
-      img: Bot, 
-      bio: "A basic chat bot project implemented in Java.", 
-      repoLink: "https://github.com/cfpisaca/SimpleChatBot" 
-    }
+    {
+      title: "Future",
+      description: "Upcoming projects",
+      img: Future,
+      bio: "Developing two projects for my two current Computer Science Courses (Evolutionary Machine Learning and Data Visualization). ML project will use TensorFlow/Keras and the Data Visualization class will use Observable + VegaLite + JavaScript. In addition, I want to create a 3D tracker of all satellites in orbit. Coming soon...",
+      repoLink: "N/A"
+    },     
   ];
 
   const handleOpenModal = (project: Project) => {

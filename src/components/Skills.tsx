@@ -15,7 +15,7 @@ function Skills() {
     { 
       title: "Machine Learning & Artificial Intelligence", 
       icon: <FaBrain />, 
-      description: "Developed and trained machine learning models using TensorFlow for real-time ASL language detection. Explored and compared neural network architectures to optimize gesture recognition accuracy and advance AI-driven accessibility for the Deaf and Hard-of-Hearing communities."
+      description: "Developed and trained machine learning models using TensorFlow for real-time ASL language detection. Compared neural network architectures for gesture recognition accuracy."
     },
 
   
@@ -23,22 +23,15 @@ function Skills() {
     { 
       title: "Virtual Reality", 
       icon: <FaEye />, 
-      description: "Designed and developed VR experiences in C# and Unity, including Geography3D for the Meta Quest 2. Leveraged motion tracking and head tracking to create a highly immersive gameplay experience, allowing users to explore a 3D world map and interact dynamically with a virtual environment." 
+      description: "Created VR experiences in C# and Unity, including Geography3D for the Meta Quest 2. Used motion tracking and head tracking to create immersive gameplay experience to explore a 3D world map." 
     },
 
     // Java
     { 
       title: "Java", 
       icon: <FaJava />, 
-      description: "Fundamentals in Java, demonstrated through coursework and projects like Collection Tracker. Strong understanding of data structures, object-oriented programming principles, and backend development. Demonstrated Java fundamentals in Tic-Tac-Toe and Simple Chat Bot projects." 
+      description: "Fundamentals in Java, demonstrated through coursework and projects like Collection Tracker. Strong understanding of data structures, OOP principles, and backend development. Demonstrated Java fundamentals in Tic-Tac-Toe and Simple Chat Bot projects." 
     },
-
-        // Computer Vision
-    { 
-      title: "Computer Vision", 
-      icon: <FaBullseye />, 
-      description: "Designed real-time ASL gesture detection systems using OpenCV and MediaPipe. Leveraged computer vision techniques to enhance hand tracking and recognition for improved accessibility in real-world applications."
-    }, 
 
     // Frameworks and Libraries
     { 
@@ -46,6 +39,13 @@ function Skills() {
       icon: <FaReact />, 
       description: "Developed full-stack and mobile applications, leveraging these frameworks, libraries, and backend data management. Applied in projects like Collection Tracker and my Portfolio to build robust, responsive, and user-friendly applications." 
     },
+
+       // Computer Vision
+       { 
+        title: "Computer Vision", 
+        icon: <FaBullseye />, 
+        description: "Leveraged OpenCV and MediaPipe to enhance hand / body tracking and recognition in real-world applications such as my ASL recognition thesis and an AR iPad app for Pyschomotor Skill Learning for SUMMRR."
+      }, 
 
     // Front-End Development
     { 

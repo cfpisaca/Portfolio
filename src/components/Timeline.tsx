@@ -38,7 +38,7 @@ function Timeline() {
                 <span style={{ color: '#333'}}>Syracuse, NY</span>
               </h4>
               <p>
-              SUMMRR (Syracuse University Multidisciplinary Mixed Reality Research) is a student-led group organized by Professor João Marum to advance AR/VR innovation across disciplines. Current projects include a collaboration with Professor Tiffany Koszalka on an AR iPad app for Psychomotor Skill Learning, which uses real-time visual feedback through a Digital Twin to enhance upper body movement training. </p>
+              SUMMRR (Syracuse University Multidisciplinary Mixed Reality Research) is a student-led group organized by Professor João Marum to advance AR/VR innovation across disciplines. Current projects include an AR iPad app for Psychomotor Skill Learning, which uses real-time visual feedback through a Digital Twin to enhance upper body movement training. </p>
             </div>
           </div>
           <div className="timeline-item">
@@ -49,9 +49,14 @@ function Timeline() {
               <h3>Sept 2024 - Present</h3>
               <h4>Renée Crown University Honors Thesis
                 <br />
-                  <span style={{ color: '#333'}}>Syracuse, NY</span>
+                <span style={{ color: '#333'}}>Syracuse, NY</span>
               </h4>
-              <p>Honors Thesis project led in collaboration with Professor Ghani to develop a robust, real-time ASL language detection system using TensorFlow, MediaPipe, and OpenCV in Python. Building on a thorough literature review of current ASL recognition technologies and innovations, this research explores various neural network architectures to determine the most effective approach for accurate gesture recognition. By training and comparing multiple machine learning models, the project aims to create an efficient solution that advances accessibility for Deaf and Hard-of-Hearing communities, ultimately contributing to the broader field of AI-driven communication tools.</p> 
+              <p>
+                Honors Thesis project advised by Professor Nadeem Ghani to develop a robust, real-time ASL language detection system.
+                <a href="#thesis" className="thesis-link">
+                  Click here to learn more.
+                </a>
+              </p>
             </div>
           </div>
           <div className="timeline-item">

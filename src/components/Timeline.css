@@ -104,6 +104,14 @@
   background-color: #ccc;
 }
 
+.thesis-link {
+  font-weight: bold;
+  color: black;
+  display: block; 
+  margin-top: 1rem; 
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .timeline-item {
     flex-direction: column; 
