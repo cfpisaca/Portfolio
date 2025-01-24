@@ -46,3 +46,10 @@
     font-size: 1.25rem;
     max-width: 900px; 
 }
+
+@media (max-width: 768px) {
+    .no-padding {
+        padding-left: 2rem !important; 
+        padding-right: 2rem !important;
+    }
+}
