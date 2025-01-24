@@ -13,12 +13,25 @@ function Timeline() {
         <h2>Timeline</h2>
         <p>Work experience and education history displayed here.</p>
         <div className="timeline-container">
+        {/* <div className="timeline-item">
+            <div className="timeline-icon">
+              <img src={Honors} alt="Honors" />
+            </div>
+            <div className="timeline-content">
+              <h3>May 2025 - Future</h3>
+              <h4>Master's Degree / Full-time work
+                <br />
+                  <span style={{ color: '#333'}}>New York, NY</span>
+              </h4>
+              <p>Considering my options as a Post-Graduate from Syracsue University.</p> 
+            </div>
+          </div> */}
           <div className="timeline-item">
             <div className="timeline-icon">
               <img src={ECS} alt="ECS" />
             </div>
             <div className="timeline-content">
-              <h3>Aug 2024 - Present</h3>
+              <h3>Oct 2024 - Present</h3>
               <h4>
                 Multidisciplinary Mixed Reality Research Group
                 <br />
@@ -33,12 +46,12 @@ function Timeline() {
               <img src={Honors} alt="Honors" />
             </div>
             <div className="timeline-content">
-              <h3>Aug 2024 - Present</h3>
+              <h3>Sept 2024 - Present</h3>
               <h4>Renée Crown University Honors Thesis
                 <br />
                   <span style={{ color: '#333'}}>Syracuse, NY</span>
               </h4>
-              <p>Thesis info here.</p> 
+              <p>Honors Thesis project led in collaboration with Professor Ghani to develop a robust, real-time ASL language detection system using TensorFlow, MediaPipe, and OpenCV in Python. Building on a thorough literature review of current ASL recognition technologies and innovations, this research explores various neural network architectures to determine the most effective approach for accurate gesture recognition. By training and comparing multiple machine learning models, the project aims to create an efficient solution that advances accessibility for Deaf and Hard-of-Hearing communities, ultimately contributing to the broader field of AI-driven communication tools.</p> 
             </div>
           </div>
           <div className="timeline-item">
@@ -77,7 +90,7 @@ function Timeline() {
               <br />
                  <span style={{ color: '#333'}}>New York, NY</span>
               </h4>
-              <p>I graduated from NYC Lab High School for Collaborative Studies, eager for new opportunities at Syracuse University. In high school, I was active in the Model UN, Black Student Union, West Side Soccer League, and volunteered at Manhattan's Children Center and NYC Relief Bus.</p>
+              <p>I graduated from NYC Lab High School for Collaborative Studies, eager for new opportunities at Syracuse University. In high school, I was active in the Model UN, West Side Soccer League, Black Student Union, and volunteered at Manhattan's Children Center and NYC Relief Bus.</p>
             </div>
           </div>
         </div>

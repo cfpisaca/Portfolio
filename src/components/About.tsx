@@ -38,7 +38,7 @@ function About() {
             </p>
           </Col>
         </Row>
-        <h3 style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '1.5rem' }}>Learn more about my:</h3>
+        <h3 style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '1.5rem' }}>Explore my:</h3>
         <div className="buttons-container">
           <a href="#skills" className="info-button">Skills</a>
           <a href="#projects" className="info-button">Projects</a>

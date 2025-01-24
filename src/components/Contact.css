@@ -146,7 +146,7 @@ a.email-link, a.phone-link {
 
 a.email-link:hover, a.phone-link:hover {
   color: #ffffff;
-  background-color: #F76900; 
+  background-color: #000e54b6; 
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }

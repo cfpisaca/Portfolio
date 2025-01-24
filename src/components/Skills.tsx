@@ -1,6 +1,5 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { FaPython, FaJava, FaCode, FaReact, FaBook, FaEye } from 'react-icons/fa';
-//  FaBullseye, FaBrain, FaLaptop
+import { FaPython, FaJava, FaCode, FaReact, FaBook, FaEye, FaBrain, FaBullseye, FaLaptop } from 'react-icons/fa';
 import './Skills.css';
 
 function Skills() {
@@ -11,6 +10,14 @@ function Skills() {
       icon: <FaPython />, 
       description: "Experienced in Python; developed a Binary Encoder and Decoder application. Solid understanding of Python fundamentals, applied across projects and in my ASL recognition thesis."
     },
+
+    // Machine Learning & AI
+    { 
+      title: "Machine Learning & Artificial Intelligence", 
+      icon: <FaBrain />, 
+      description: "Developed and trained machine learning models using TensorFlow for real-time ASL language detection. Explored and compared neural network architectures to optimize gesture recognition accuracy and advance AI-driven accessibility for the Deaf and Hard-of-Hearing communities."
+    },
+
   
     // Virtual Reality
     { 
@@ -26,6 +33,19 @@ function Skills() {
       description: "Fundamentals in Java, demonstrated through coursework and projects like Collection Tracker. Strong understanding of data structures, object-oriented programming principles, and backend development. Demonstrated Java fundamentals in Tic-Tac-Toe and Simple Chat Bot projects." 
     },
 
+        // Computer Vision
+    { 
+      title: "Computer Vision", 
+      icon: <FaBullseye />, 
+      description: "Designed real-time ASL gesture detection systems using OpenCV and MediaPipe. Leveraged computer vision techniques to enhance hand tracking and recognition for improved accessibility in real-world applications."
+    }, 
+
+    // Frameworks and Libraries
+    { 
+      title: "React, Spring, Bootstrap, Vue, Flutter, PostgreSQL", 
+      icon: <FaReact />, 
+      description: "Developed full-stack and mobile applications, leveraging these frameworks, libraries, and backend data management. Applied in projects like Collection Tracker and my Portfolio to build robust, responsive, and user-friendly applications." 
+    },
 
     // Front-End Development
     { 
@@ -34,33 +54,12 @@ function Skills() {
       description: "Front-end and mobile development, used in projects like Collection Tracker and my Portfolio. Knowledgeable in building interactive UIs and developing Android and multi-platform applications." 
     },
 
-    // Frameworks and Libraries
-    { 
-      title: "React, Spring, Bootstrap, Vue, Flutter, PostgreSQL", 
-      icon: <FaReact />, 
-      description: "Developed full-stack and mobile applications, leveraging these frameworks, libraries, and backend data management. Applied in projects like Collection Tracker to build robust, responsive, and user-friendly applications." 
-    },
-
-    // Machine Learning and AI (
-    // { 
-    //   title: "Machine Learning, Artificial Intelligence", 
-    //   icon: <FaBrain />, 
-    //   description: "Skilled in TensorFlow and MediaPipe, applied in ASL recognition projects involving LSTMs for enhanced communication accessibility. Strong knowledge of AI/ML principles through thesis work." 
-    // },
-
-    // Computer Vision 
-    // { 
-    //   title: "Computer Vision", 
-    //   icon: <FaBullseye />, 
-    //   description: "Expertise with OpenCV, utilized in thesis research to analyze video data and enhance ASL recognition system performance, integrating ML techniques for complex visual tasks." 
-    // },
-
     // C++ 
-    // { 
-    //   title: "C++", 
-    //   icon: <FaLaptop />, 
-    //   description: "Solid foundation in C++ through coursework, covering essential programming concepts, data structures, and object-oriented programming techniques." 
-    // },
+    { 
+      title: "C++", 
+      icon: <FaLaptop />, 
+      description: "Solid foundation in C++ through coursework, covering essential programming concepts, data structures, and object-oriented programming techniques." 
+    },
 
     // Software Development 
     { 

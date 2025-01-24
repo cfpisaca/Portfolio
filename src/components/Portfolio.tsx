@@ -7,6 +7,7 @@ import App from "../assets/images/app.png";
 import Binary from "../assets/images/binary.png";
 import TicTacToe from "../assets/images/tic.png";
 import Bot from "../assets/images/bot.png";
+import Thrift from "../assets/images/thift.png";
 import './Portfolio.css';
 
 interface Project {
@@ -23,7 +24,7 @@ function Portfolio() {
 
   const projects: Project[] = [
     { 
-      title: "Collection Tracker", 
+      title: "CollectionTracker", 
       description: "E-marketplace web application", 
       img: Collection, 
       bio: "A project that manages collections in an online marketplace.", 
@@ -44,21 +45,28 @@ function Portfolio() {
       repoLink: "https://github.com/cfpisaca/Portfolio" 
     },
     { 
-      title: "Encode and Decode", 
+      title: "EncodeDecode", 
       description: "Binary encoder and decoder", 
       img: Binary, 
       bio: "A tool to encode and decode messages in binary format.", 
       repoLink: "https://github.com/cfpisaca/EncodeDecode"
     },
+    {
+      title: "SecondHandStoreApp",
+      description: "Multiplatform thrift store inventory",
+      img: Thrift,
+      bio: "A Flutter-based application for managing second-hand store inventory.",
+      repoLink: "https://github.com/aidandegooyer/SecondHandStoreApp"
+    },    
     { 
-      title: "Tic-Tac-Toe", 
+      title: "TicTacToe", 
       description: "Classic Tic-Tac-Toe", 
       img: TicTacToe, 
       bio: "A digital rendition of the classic Tic-Tac-Toe game.", 
       repoLink: "https://github.com/cfpisaca/TicTacToe" 
     },
     { 
-      title: "Simple Chat Bot", 
+      title: "SimpleChatBot", 
       description: "First java project, simple chat bot", 
       img: Bot, 
       bio: "A basic chat bot project implemented in Java.", 
