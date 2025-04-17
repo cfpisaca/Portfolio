@@ -52,6 +52,16 @@
   font-size: 1rem;
 }
 
+#skills .skill-link {
+  color: #F76900;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#skills .skill-link:hover {
+  text-decoration: underline;
+}
+
 .project-link {
   color: #F76900;
   cursor: pointer;
