@@ -6,10 +6,11 @@ import Geography from "../assets/images/geography.png";
 import App from "../assets/images/app.png";
 import Binary from "../assets/images/binary.png";
 import TicTacToe from "../assets/images/tic.png";
-import Bot from "../assets/images/bot.png";
+// import Bot from "../assets/images/bot.png";
 import Thrift from "../assets/images/thift.png";
-import Future from "../assets/images/future.png";
+import Brain from "../assets/images/brain.png";
 import MediaPipe from "../assets/images/mediapipe.png";
+import Climate from "../assets/images/climate.png"
 import './Portfolio.css';
 
 interface Project {
@@ -18,6 +19,7 @@ interface Project {
   img: string;
   bio: string;
   repoLink: string; 
+  linkLabel?: string;
 }
 
 function Portfolio() {
@@ -67,12 +69,27 @@ function Portfolio() {
       bio: "A Flutter-based application for managing second-hand store inventory.",
       repoLink: "https://github.com/aidandegooyer/SecondHandStoreApp"
     },  
+    // { 
+    //   title: "SimpleChatBot", 
+    //   description: "First java project, simple chat bot", 
+    //   img: Bot, 
+    //   bio: "A basic chat bot project implemented in Java.", 
+    //   repoLink: "https://github.com/cfpisaca/SimpleChatBot" 
+    // },
+    {
+      title: "ClimateChange",
+      description: "Data visualization project",
+      img: Climate,
+      bio: "Data visualizations of climate change data.",
+      repoLink: "https://observablehq.com/@cis-400-data-visualization/project-climate",
+      linkLabel: "View this project on Observable"
+    },    
     { 
-      title: "SimpleChatBot", 
-      description: "First java project, simple chat bot", 
-      img: Bot, 
-      bio: "A basic chat bot project implemented in Java.", 
-      repoLink: "https://github.com/cfpisaca/SimpleChatBot" 
+      title: "AlzheimersML", 
+      description: "Machine learning + Alzheimer's data", 
+      img: Brain, 
+      bio: "Built Alzheimer’s disease prediction models using Backpropagation, Evolution Strategies, Genetic Algorithms, Neural Architecture Search, and Particle Swarm Optimization on a real-world clinical dataset.",
+      repoLink: "https://github.com/cfpisaca/AlzheimersML"
     },
     { 
       title: "TicTacToe", 
@@ -80,14 +97,7 @@ function Portfolio() {
       img: TicTacToe, 
       bio: "A digital rendition of the classic Tic-Tac-Toe game.", 
       repoLink: "https://github.com/cfpisaca/TicTacToe" 
-    },
-    {
-      title: "Future",
-      description: "Upcoming projects",
-      img: Future,
-      bio: "Developing two projects for my two current Computer Science Courses (Evolutionary Machine Learning and Data Visualization). ML project will use TensorFlow/Keras and the Data Visualization class will use Observable + VegaLite + JavaScript. In addition, I want to create a 3D tracker of all satellites in orbit. Coming soon...",
-      repoLink: "N/A"
-    },     
+    }
   ];
 
   const handleOpenModal = (project: Project) => {
@@ -143,7 +153,10 @@ function Portfolio() {
             <p className="modal-description">{activeProject.description}</p>
             <p className="modal-bio">{activeProject.bio}</p>
             <p className="modal-github-text">
-              View this project on GitHub: <a href={activeProject.repoLink} target="_blank" rel="noopener noreferrer" className="github-link">{activeProject.repoLink}</a>
+              {activeProject.linkLabel || "View this project on GitHub"}:{" "}
+              <a href={activeProject.repoLink} target="_blank" rel="noopener noreferrer" className="github-link">
+                {activeProject.repoLink}
+              </a>
             </p>
           </Modal.Body>
         </Modal>
