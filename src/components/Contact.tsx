@@ -35,7 +35,7 @@ function Contact() {
       <Container id="contact">
         <h2 className="text-center">Contact Me</h2>
         <p className="text-center contact-info">
-          Email: <a href="mailto:cfpisaca@syr.edu" className="email-link">cfpisaca@syr.edu</a> • <a href="mailto:cfpisaca@gmail.com" className="email-link">cfpisaca@gmail.com</a><br />
+          Email: <a href="mailto:cfpisaca@gmail.com" className="email-link">cfpisaca@gmail.com</a><br />
           Phone: <a href="tel:9177691809" className="phone-link">917-769-1809</a><br />
           Or just fill out this form
         </p>
