@@ -31,7 +31,7 @@ function Timeline() {
               <img src={ECS} alt="ECS" />
             </div>
             <div className="timeline-content">
-              <h3>Oct 2024 - Present</h3>
+              <h3>Oct 2024 - Apr 2025</h3>
               <h4>
                 Multidisciplinary Mixed Reality Research Group
                 <br />
@@ -46,7 +46,7 @@ function Timeline() {
               <img src={Honors} alt="Honors" />
             </div>
             <div className="timeline-content">
-              <h3>Sept 2024 - Present</h3>
+              <h3>Sept 2024 - May 2025</h3>
               <h4>Renée Crown University Honors Thesis
                 <br />
                 <span style={{ color: '#333'}}>Syracuse, NY</span>
@@ -64,7 +64,7 @@ function Timeline() {
               <img src={Career} alt="ECS Career Services" />
             </div>
             <div className="timeline-content">
-              <h3>Apr 2023 - Present</h3>
+              <h3>Apr 2023 - Apr 2025</h3>
               <h4>College of Engineering & Computer Science Career Services
                 <br />
                   <span style={{ color: '#333'}}>Syracuse, NY</span>
@@ -77,7 +77,7 @@ function Timeline() {
               <img src={Syracuse} alt="Syracuse" />
             </div>
             <div className="timeline-content">
-              <h3>2021 - Present (May 2025)</h3>
+              <h3>2021 - 2025</h3>
               <h4>Syracuse University
                 <br />
                  <span style={{ color: '#333'}}>Syracuse, NY</span>

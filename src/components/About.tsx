@@ -22,19 +22,19 @@ function About() {
           </Col>
           <Col md={8}>
             <h2>Carlo Pisacane</h2>
-            <p className="sub-heading">Syracuse '25, B.S. Computer Science Student</p>
+            <p className="sub-heading">Syracuse '25, B.S. Computer Science Graduate</p>
             <p className="about-education">
               <strong>Syracuse University College of Engineering and Computer Science (ECS)</strong>
               <ul>
                 <li>Bachelor of Science (B.S.) in Computer Science </li>
                 <li>Renée Crown University Honors Program</li>
-                <li>1870 Scholarship: The highest recognition by the Office of Admissions; 4/5-year full tuition for academic excellence</li>
+                <li>1870 Scholarship: The highest recognition by the Office of Admissions; 4-year full tuition for academic excellence</li>
               </ul>
             </p>
             <p className="about-description">
-              I'm a Honors Computer Science student of Syracuse's Class of 2025. My interests include software design and development, computer vision, and virtual reality.
+            Hi, I'm Carlo, an Honors graduate in Computer Science. I am interested in computer vision, virtual reality, and machine learning. My academic journey is highlighted by a thesis on ASL recognition, aiming to bridge communication gaps with technology. 
               <br /><br />
-              I'm currently a fourth-year student working towards getting a full-time job in Computer Science.
+              I envision my career path in software engineering, where I am committed to continual learning and application of my skills to solve real-world problems.
             </p>
           </Col>
         </Row>
