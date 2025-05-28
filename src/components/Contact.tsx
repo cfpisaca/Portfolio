@@ -65,7 +65,7 @@ function Contact() {
             <FaGithub />
           </a>
         </div>
-        <p>&copy; Carlo Pisacane 2024</p>
+        <p>&copy; Carlo Pisacane 2025</p>
       </footer>
     </div>
   );
