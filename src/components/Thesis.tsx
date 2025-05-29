@@ -7,8 +7,8 @@ function Thesis() {
     <Container fluid id="thesis" className="no-padding">
       <h2>ASL Recognition Thesis</h2>
       <p>
-      This completed honors thesis delivers a real-time American Sign Language (ASL) recognition 
-      system that combines MediaPipe hand-landmark extraction with a hybrid Convolutional–Graph Neural Network. 
+      This honors thesis delivers a real-time American Sign Language (ASL) recognition 
+      system that combines MediaPipe hand-landmark extraction with a hybrid Convolutional-Graph Neural Network. 
       After benchmarking four models: a Multilayer Perceptron (MLP), a Convolutional Neural Network (CNN), 
       a Graph Convolutional Network (GCN), and the hybrid CNN-GCN, the hybrid achieved the highest accuracy. 
       The application overlays recognized letters directly on a live webcam feed, demonstrating a practical step 
