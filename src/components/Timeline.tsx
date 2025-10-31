@@ -4,6 +4,7 @@ import Syracuse from "../assets/images/s.png";
 import Career from "../assets/images/ecs.png";
 import ECS from "../assets/images/ecs2.png"
 import Honors from "../assets/images/honors.png"
+import Free from "../assets/images/free.png"
 import './Timeline.css';
 
 function Timeline() {
@@ -26,6 +27,21 @@ function Timeline() {
               <p>Considering my options as a Post-Graduate from Syracsue University.</p> 
             </div>
           </div> */}
+          <div className="timeline-item">
+            <div className="timeline-icon">
+              <img src={Free} alt="Freelance Software Engineer" />
+            </div>
+            <div className="timeline-content">
+              <h3>June 2025 - Present</h3>
+              <h4>Freelance Software Engineer
+                <br />
+                <span style={{ color: '#333'}}>Remote</span>
+              </h4>
+              <p>
+                Working with clients on web and software projects, delivering custom solutions. Responsibilities include full-stack development, CI/CD pipelines, reliable workflows, and stable, scalable project management for startups and small businesses.
+              </p>
+            </div>
+          </div>
           <div className="timeline-item">
             <div className="timeline-icon">
               <img src={ECS} alt="ECS" />

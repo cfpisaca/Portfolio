@@ -168,7 +168,7 @@ function Skills() {
       icon: <FaBook />,
       description: (
         <>
-          Skilled in Agile methodologies with tools like Jira and Visual Paradigm, effectively applied in collaborative projects like{" "}
+          Skilled in Agile methodologies with tools like Jira and Visual Paradigm, and experienced in designing scalable applications and CI/CD workflows. Effectively applied these skills in collaborative projects like{" "}
           <span
             className="skill-link"
             onClick={() => openProject("CollectionTracker")}
