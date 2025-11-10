@@ -32,7 +32,7 @@ function Portfolio() {
       description: "E-marketplace web application",
       img: Collection,
       bio: "A project that manages collections in an online marketplace.",
-      repoLink: "https://github.com/cfpisaca/CollectionTracker"
+      repoLink: "https://github.com/jonwe23/CollectionTracker"
     },
     {
       title: "Geography3D",
